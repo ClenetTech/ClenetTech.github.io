@@ -1,32 +1,27 @@
-- title                                 : Work Force Transaction Management
-  description                           : With lots of care CleNet is designed to manage your work force. You can easily manage your work force & transactions made by them.
-  fontawesome_icon_name                 : magic
-
-- title                                 : Place Orders
-  description                           : Request Orders from businesses of your choice and communicate to them through chat.
+- title                                 : Transaction
+  description                           : Request orders from businesses of your choice and communicate to them through chat.
   fontawesome_icon_name                 : dolly
 
 - title                                 : Review & Rating
-  description                           : CleNet has a Simple and Clear Review & Rating system that helps you to understand customers better. And also helps to innovate & take better decisions.
+  description                           : Simple and clear review & rating system that helps you to understand customers better.
   fontawesome_icon_name                 : star
 
-- title                                 : Chat, Share Images, Videos & Files
-  description                           : CleNet provides Chat, Group Chat, Broadcast & Order Chat with Image, Video & File sharing options.
-  fontawesome_icon_name                 : share
-
 - title                                 : Security
-  description                           : Data safety & security is highest priority for CleNet. All data is end-to-end encrypted during transaction & while in rest.
+  description                           : Data safety & security is highest priority for CleNet. Data encryption in all transactions.
   fontawesome_icon_name                 : lock
 
-- title                                 : Transparency
-  description                           : Transparency in business brings more valuable customers and build long term relationships with customers. CleNet provides end-to-end transparency for each transaction.
-  fontawesome_icon_name                 : link
+- title                                 : Interactive
+  description                           : Chat, order chat, group chat, broadcast with image, video & file sharing options.
+  fontawesome_icon_name                 : share
 
 - title                                 : Trust
-  description                           : In business, trust is one of the major factors which accumulates customers over time. A reliable and transparent system like CleNet helps to win the heart of your customers.
+  description                           : A reliable and transparent system helps to win the heart of your customers.
   fontawesome_icon_name                 : handshake
 
 - title                                 : Payment
-  description                           : Easier payment with Google Pay, BMIM, PhonePe, Paytm or any other UPI Provider.
+  description                           : Easier payment with Google Pay, Bhim, PhonePe, Paytm or any other UPI providers.
   fontawesome_icon_name                 : rupee-sign
 
+- title                                 : Support
+  description                           : Help from business built into system via interactive communication channels.
+  fontawesome_icon_name                 : life-ring
