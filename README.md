@@ -1,5 +1,12 @@
 Landing page for our website.
 
+## Setup
+
+`make install`
+
+## Local Serve
+
+`make serve`
 
 ## Credits
 - [Jekyll](https://github.com/jekyll/jekyll)
