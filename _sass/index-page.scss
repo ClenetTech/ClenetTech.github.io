@@ -19,12 +19,11 @@
 }
 
 .indexContainer {					// Set up the container for the site content
-	display: grid;
+    display: grid;
 	margin: auto;
 	max-width: $content-width;
 	padding-left: 15px;
 	padding-right: 15px;
-	grid-template-columns: repeat(12, 1fr);
 	grid-template-areas: 
 		"cp cp cp cp cp ci ci ci ci ci ci ci"
         "cf cf cf cf cf cf cf cf cf cf cf cf" 
@@ -39,8 +38,6 @@
 @media only screen and (max-width: 992px) {
 	.indexContainer {
 		grid-column-gap: 0px;
-		grid-template-columns: 1;
-		// grid-template-rows: 115px auto auto auto auto;
 		grid-template-areas: 
 			"ci ci ci ci ci ci ci ci ci ci ci ci"
 			"cp cp cp cp cp cp cp cp cp cp cp cp"
@@ -92,6 +89,7 @@
 
 @media only screen and (max-width: 768px) {
 	.appName {
+		margin-top: 30px;
 		text-align: center;
 	}
 } 
