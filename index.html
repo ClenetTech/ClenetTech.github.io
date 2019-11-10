@@ -1,3 +1,44 @@
 ---
-layout: default
+layout: base
 ---
+<div class="indexImageWrapper">
+  <div class="indexContainer">
+      {% include preview-android.html %}
+    <div class="appInfo">
+      <div class="appInfoLogo">
+        <div class="appIconShadow">
+            <img class="appIconLarge" src="{{ site.data.appconfig.app_icon }}">
+        </div>
+        <div class="appName">
+            <h1 class="appName"> {{ site.data.appconfig.app_name }} </h1>
+        </div>
+      </div>
+      <div class="appDescriptionContainer">
+          <p class ="appDescription">
+              {{ site.data.appconfig.app_description }}
+          </p>
+      </div>
+      <div class="downloadButtonsContainer">
+          {% if site.data.appconfig.playstore_link %}
+              <a class="playStoreLink" href="{{site.data.appconfig.playstore_link}}"><img class="playStore" src="assets/playstore.png"></a>
+          {% endif %}
+      </div>
+    </div> <!-- appInfo -->
+    {% include features.html %}
+    <script type="text/javascript" src="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.min.js"></script>
+
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('.android-preview').slick({
+          infinite: true,
+          slidesToShow: 1,
+          lazyLoad: 'ondemand',
+          initialSlide: 1,
+          swipe: true,
+          autoplay: true,
+          autoplaySpeed: 1000,
+        });
+      });
+    </script>
+  </div> <!-- index-container -->
+</div> <!-- index-imageWrapper -->

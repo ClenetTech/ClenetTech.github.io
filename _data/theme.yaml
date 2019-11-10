@@ -1,32 +1,32 @@
 
 # Theme Settings
-topbar_color                              : "#000000"
-topbar_color                              : "#f03c30"
-topbar_transparency                       : 1
-topbar_title_color                        : "#ffffff"
+base_color :                     "#f03c30"    # This is our theme color
+topbar_transparency            :  1
+topbar_title_color             :  "#ffffff"
 
-cover_image                               : assets/background.jpg # Replace with alternative image path or image URL.
-cover_overlay_color                       : "#363b3d"
-cover_overlay_transparency                : 0.2
+cover_image                    :  assets/background.jpg # Replace with alternative image path or image URL.
+cover_overlay_color            :  "#363b3d"
+cover_overlay_transparency     :  0.2
 
-device_color                              : black                                     # Set to: blue, black, yellow, coral or white.
+device_color                   :  black                                     # Set to                        :  blue, black, yellow, coral or white.
 
-body_background_color                     : "ffffff"
+body_background_color          :  "ffffff"
 
-link_color                                : "#1d63ea"
+link_color                     :  "#1d63ea"
 
-app_title_color                           : "#ffffff"
-app_price_color                           : "#ffffff"
-app_description_color                     : "#ffffff"
+app_title_color                :  "#ffffff"
+app_price_color                :  "#ffffff"
+app_description_color          :  "#ffffff"
 
-feature_title_color                       : "#000000"
-feature_text_color                        : "#666666"
+feature_title_color            :  "#000000"
+feature_text_color             :  "#666666"
 
-feature_icons_foreground_color            : "#ffffff"
-feature_icons_background_color            : "#f03c30"
+feature_icons_foreground_color :  "#ffffff"
+feature_icons_background_color :  "#f03c30"
 
-social_icons_foreground_color             : "#666666"
-social_icons_background_color             : "#e6e6e6"
+social_icons_foreground_color  :  "#666666"
+social_icons_background_color  :  "#e6e6e6"
 
-footer_text_color                         : "#666666"
 
+footer_text_color         :       "#123fff"
+footer_background_transparency :  1
