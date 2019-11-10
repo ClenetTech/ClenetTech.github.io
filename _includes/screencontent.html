@@ -2,7 +2,6 @@
 
 {% for image in site.static_files %}
   {% if image.path contains 'assets/screenshot-slider/' %}
-    <!-- <div> <img src="{{ site.baseurl }}{{ image.path }}" alt="image" style='height: 100%; width: 100%; object&#45;fit: contain'/> </div> -->
     <div> <img src="{{ site.baseurl }}{{ image.path }}" alt="image" class='screenshot'/> </div>
     {% endif %}
 {% endfor %}

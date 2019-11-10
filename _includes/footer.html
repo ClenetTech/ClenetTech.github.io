@@ -1,42 +1,21 @@
-<footer>
-  <p class="footerText">Made with <i class="far fa-heart" style="color:red" aria-hidden="true"></i>  in <span><i> <img src="/assets/earth.ico" style="width: 25px"/></img></i> </p>
+<footer class="main-footer">
+  <div class="footer-container">
+    <!-- Footer legal -->
+    <section class="ft-common ft-links">
+      <ul class="ft-links-list">
+        <li><a href="#">Contact Us</a></li>
+        <li><a href="#">Terms &amp; Conditions </a></li>
+      </ul>
+    </section>
 
-    <div class="footerIcons">
-		{% if site.data.creator.facebook_username %}
-			<a href="https://facebook.com/{{ site.data.creator.facebook_username }}">
-				<span class="fa-stack fa-1x">
-					<i class="socialIconBack fas fa-circle fa-stack-2x"></i>
-					<i class="socialIconTop fab fa-facebook fa-stack-1x"></i>
-				</span>
-			</a>
-		{% endif %}
-
-		{% if site.data.creator.twitter_username %}
-			<a href="https://twitter.com/{{ site.data.creator.twitter_username }}">
-				<span class="fa-stack fa-1x">
-					<i class="socialIconBack fas fa-circle fa-stack-2x"></i>
-					<i class="socialIconTop fab fa-twitter fa-stack-1x"></i>
-				</span>
-			</a>
-		{% endif %}
-
-		{% if site.data.creator.github_username %}
-			<a href="https://github.com/{{ site.data.creator.github_username }}">
-				<span class="fa-stack fa-1x">
-					<i class="socialIconBack fas fa-circle fa-stack-2x"></i>
-					<i class="socialIconTop fab fa-github fa-stack-1x"></i>
-				</span>
-			</a>
-		{% endif %}
-
-		{% if site.data.creator.email_address %}
-			<a href="mailto:{{ site.data.creator.email_address }}">
-				<span class="fa-stack fa-1x">
-					<i class="socialIconBack fas fa-circle fa-stack-2x"></i>
-					<i class="socialIconTop fas fa-envelope fa-stack-1x"></i>
-				</span>
-			</a>
-		{% endif %}
-
-	</div>
-</footer>
+    <!-- Footer social -->
+    <section class="ft-common ft-social">
+      <ul class="ft-social-list">
+        <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+        <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+        <li><a href="mailto:{{ site.data.creator.email_address }}"><i class="fas-envelope"></i></a></li>
+      </ul>
+    </section>
+  </div> <!-- Footer container -->
+</footer> <!-- .main-footer -->

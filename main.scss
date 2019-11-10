@@ -2,34 +2,40 @@
 # Front matter comment to ensure Jekyll properly reads file.
 ---
 
+$theme-color: {{ site.data.theme.base_color }};
 $body-color: {{ site.data.theme.body_background_color }};
 
-$header-image: "{{ site.data.theme.cover_image }}";
 $device-color: "assets/{{ site.data.theme.device_color }}.png";
 
 $accent-color: {{ site.data.theme.link_color }};
 
-$header-title-color: {{ site.data.theme.topbar_title_color }};
 $app-title-color: {{ site.data.theme.app_title_color }};
 $app-price-color: {{ site.data.theme.app_price_color }};
 $app-description-color: {{ site.data.theme.app_description_color }};
 
+$header-image: "{{ site.data.theme.cover_image }}";
+$header-title-color: {{ site.data.theme.base_color }};
+$header-color: {{ site.data.theme.base_color }};
+$header-transparency: {{ site.data.theme.topbar_transparency }};
+
 $feature-title-color: {{ site.data.theme.feature_title_color }};
 $feature-text-color: {{ site.data.theme.feature_text_color }};
-$footer-text-color: {{ site.data.theme.footer_text_color }};
+$feature-icons-foreground-color: {{ site.data.theme.feature_icons_foreground_color }};
+$feature-icons-background-color: {{ site.data.theme.feature_icons_background_color }};
 
-$header_color: {{ site.data.theme.topbar_color }};
-$header_transparency: {{ site.data.theme.topbar_transparency }};
 
 $image-overlay-color: {{ site.data.theme.cover_overlay_color }};
 $image-overlay-transparency: {{ site.data.theme.cover_overlay_transparency }};
 
-$feature-icons-foreground-color: {{ site.data.theme.feature_icons_foreground_color }};
-$feature-icons-background-color: {{ site.data.theme.feature_icons_background_color }};
-
 $social-icons-foreground-color: {{ site.data.theme.social_icons_foreground_color }};
 $social-icons-background-color: {{ site.data.theme.social_icons_background_color }};
+$social-icons-background-color: {{ site.data.theme.social_icons_background_color }};
+
+$footer-background-color: {{ site.data.theme.base_color }};
+$footer-background-transparency: {{ site.data.theme.footer_background_transparency }};
+$footer-text-color: {{ site.data.theme.footer_text_color }};
 
 @import 
     "base",
-    "layout"
+    "top-level",
+    "index-page"
