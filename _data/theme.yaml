@@ -4,7 +4,7 @@ base_color :                     "#f03c30"    # This is our theme color
 topbar_transparency            :  1
 topbar_title_color             :  "#ffffff"
 
-cover_image                    :  assets/background.jpg # Replace with alternative image path or image URL.
+cover_image                    :  assets/background1.jpg # Replace with alternative image path or image URL.
 cover_overlay_color            :  "#363b3d"
 cover_overlay_transparency     :  0.2
 
