@@ -12,7 +12,7 @@
 
 - title                                 : Interactive
   description                           : Chat, order chat, group chat, broadcast with image, video & file sharing options.
-  fontawesome_icon_name                 : share
+  fontawesome_icon_name                 : comments
 
 - title                                 : Trust
   description                           : A reliable and transparent system helps to win the heart of your customers.
@@ -24,4 +24,4 @@
 
 - title                                 : Support
   description                           : Help from business built into system via interactive communication channels.
-  fontawesome_icon_name                 : life-ring
+  fontawesome_icon_name                 : user-clock
