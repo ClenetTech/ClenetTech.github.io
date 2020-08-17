@@ -1,4 +1,4 @@
-Landing page for our website.
+Landing page for CleNet app website.
 
 ## Setup
 
